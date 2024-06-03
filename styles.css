@@ -105,6 +105,12 @@ html {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+  
+video {
+  width: 100%;
+  height: auto;
+}
+  
 }
 
 
