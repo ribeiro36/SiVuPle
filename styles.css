@@ -1,0 +1,111 @@
+* { 
+  margin: 0.0cm;
+  padding:0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Uncomment this to make navbar sticky
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  z-index: 999; /* This makes the bar visible at all time*/
+/*
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 30px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+*/
+
+/* Side Bar */
+.fl-fl {
+  background: #000000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 4px;
+  width: 190px;
+  position: fixed;
+  right: -150px;
+  z-index: 90;
+  font: normal normal 10px Arial;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px!important;
+  vertical-align: top!important;
+}
+
+.float-wa {
+  top: 225px;
+}
+
+.float-em {
+  top: 280px;
+}
+
+.float-tl {
+  top: 335px;
+}
+
+.float-ms {
+  top: 390px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+
